@@ -4,7 +4,7 @@
     <div class="content">
       <slot />
     </div>
-    <OrganismsInfoPanel />
+    <OrganismsProfileWindow />
   </div>
 </template>
 
@@ -13,7 +13,7 @@
 <style scoped lang="scss">
 .layout {
   display: grid;
-  grid-template-columns: 1fr 50% 1fr;
+  grid-template-columns: 1fr 50% 1.5fr;
   grid-template-rows: repeat(1, var(--doc-height));
 }
 .content {

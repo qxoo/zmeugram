@@ -1,5 +1,5 @@
 <template>
-  <div><OrganismsReelCard v-for="(item, idx) in 16" :key="idx" /></div>
+  <div>aopisdja</div>
 </template>
 
 <script setup lang="ts"></script>
